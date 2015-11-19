@@ -6,7 +6,6 @@
 
 // var column = 1
 
-
 // for (var i = 1; i <= 12; i++) {
 //   setTimeout(function (counter) { // how does counter here pick up a numerical value?
 //     var rowSelector = '#Row' + counter + ' .Column' + column
@@ -25,7 +24,6 @@ var xCoordinate = 1
 var yCoordinate = 1
 var coordinates = rowAxis + columnAxis
 var illuminatedCell = document.querySelector(coordinates)
-
 
 illuminatedCell.style.backgroundColor = randomColor
 
